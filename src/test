@@ -1,0 +1,16 @@
+
+find_library(pxext PhysXExtensions_static_64 HINTS "external_lib/PhysX/physx/bin/linux.clang/checked")
+target_link_libraries(PhysicsSimPro PUBLIC ${pxext})
+
+find_library(pxpvd PhysXPvdSDK_static_64 HINTS "external_lib/PhysX/physx/bin/linux.clang/checked")
+target_link_libraries(PhysicsSimPro PUBLIC ${pxpvd})
+
+
+
+
+
+find_library(pxsnippetrender SnippetRender_static_64 HINTS "external_lib/PhysX/physx/bin/linux.clang/checked")
+target_link_libraries(PhysicsSimPro PUBLIC ${pxsnippetrender})
+
+find_library(pxsnippetutils SnippetUtils_static_64 HINTS "external_lib/PhysX/physx/bin/linux.clang/checked")
+target_link_libraries(PhysicsSimPro PUBLIC ${pxsnippetutils})
