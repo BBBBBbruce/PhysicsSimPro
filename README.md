@@ -10,7 +10,7 @@ Therefore, we can use it to generate the ground truth for deep learning training
 
 Rigid dynamics is simulated using PhysX 4.1. (https://github.com/NVIDIAGameWorks/PhysX) This library can work natively for real-time rendering.
 
-Deformable dynamics is chosen to use Finite Element Method(FEM). Because 1. it is the most popular way to approximate an accurate deformation and also no fracture is considered in this project.
+Deformable dynamics is chosen to use Finite Element Method(FEM). Because 1. it is the most popular way to approximate an accurate deformation and 2. also no fracture is considered in this project.
 
 The library used for this method is MFEM: https://mfem.org/
 
