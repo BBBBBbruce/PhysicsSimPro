@@ -8,6 +8,7 @@
 #include "inc/RigidPhysics.h"
 #include "inc/RigidGraphics.h"
 #include "inc/SoftPhysics.h"
+#include "inc/World.h"
 
 using namespace std;
 using namespace mfem;
@@ -40,8 +41,10 @@ int main(int argc, char *argv[])
 
     //deformation_sim(mesh_file,order, static_cond ,visualization);
     //renderLoop();
-
-
+    World * wrld = new World();
+    wrld->PhySim();
+    //wrld->render();
+    delete wrld;
 
     return 0;
 }

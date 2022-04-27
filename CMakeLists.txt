@@ -10,7 +10,7 @@ include_directories(PhysicsSimPro external_lib/PhysX/physx/include)
 include_directories(PhysicsSimPro external_lib/PhysX/pxshared/include)
 include_directories(PhysocsSimPro external_lib/MFEM/mfem-4.3)
 
-add_executable(PhysicsSimPro main.cpp inc/utilities.h src/utilities.cpp src/RigidPhysics.cpp inc/RigidPhysics.h src/RigidGraphics.cpp inc/RigidGraphics.h src/SoftPhysics.cpp inc/SoftPhysics.h)
+add_executable(PhysicsSimPro main.cpp inc/utilities.h src/utilities.cpp src/RigidPhysics.cpp inc/RigidPhysics.h src/RigidGraphics.cpp inc/RigidGraphics.h src/SoftPhysics.cpp inc/SoftPhysics.h src/World.cpp inc/World.h src/Engine.cpp inc/Engine.h src/Object.cpp inc/Object.h src/RigidObject.cpp inc/RigidObject.h src/SoftObject.cpp inc/SoftObject.h src/RigidObject_Static.cpp inc/RigidObject_Static.h src/RigidObject_Dynamic.cpp inc/RigidObject_Dynamic.h)
 
 set(THREADS_PREFER_PTHREAD_FLAG ON)
 find_package(Threads REQUIRED)

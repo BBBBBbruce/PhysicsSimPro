@@ -1,0 +1,14 @@
+//
+// Created by bruce on 27/04/22.
+//
+
+#ifndef PHYSICSSIMPRO_RIGIDOBJECT_STATIC_H
+#define PHYSICSSIMPRO_RIGIDOBJECT_STATIC_H
+
+
+class RigidObject_Static {
+
+};
+
+
+#endif //PHYSICSSIMPRO_RIGIDOBJECT_STATIC_H

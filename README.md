@@ -14,6 +14,8 @@ Deformable dynamics is chosen to use Finite Element Method(FEM). Because 1. it i
 
 The library used for this method is MFEM: https://mfem.org/
 
+<em><strong> Later, adding both libraries properly, leave it at the moment, would include a tutorial for PhysX building</strong></em>
+
 At the moment the library enables cuda for fast computation. However, it yet supports parallel computation 
 because parallel execution of MFEM requires other libraries which yet been successfully tested on my end.
 
